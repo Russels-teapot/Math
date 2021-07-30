@@ -1,4 +1,4 @@
-export default class Math {
+export default class MathCharacter {
   getAttack(cellNumber) {
     if (cellNumber <= 5) {
       this.attack -= this.attack * ((cellNumber - 1) / 10);
